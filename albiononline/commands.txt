@@ -1,5 +1,0 @@
-C:\Users\Lino\Downloads\opencv\build\x64\vc15\bin\opencv_annotation.exe --annotations=pos.txt --images=img\pos_down\
-
-C:\Users\Lino\Downloads\opencv\build\x64\vc15\bin\opencv_createsamples.exe -info pos.txt -w 16 -h 16 -num 1000 -vec pos.vec
-
-C:\Users\Lino\Downloads\opencv\build\x64\vc15\bin\opencv_traincascade.exe -data cascade/ -vec pos.vec -bg neg.txt -w 16 -h 16 -numPos 75 -numNeg 100 -numStages 16
