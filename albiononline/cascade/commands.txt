@@ -1,5 +1,6 @@
-C:\Users\Lino\Downloads\opencv\build\x64\vc15\bin\opencv_annotation.exe --annotations=cascade/pos.txt --images=img\pos_down\
+C:\Users\Lino\Downloads\opencv\build\x64\vc15\bin\opencv_annotation.exe --annotations=cascade/catch/pos.txt --images=img\traningdata\catch\pos\
 
-C:\Users\Lino\Downloads\opencv\build\x64\vc15\bin\opencv_createsamples.exe -info cascade/pos.txt -w 16 -h 16 -num 1000 -vec cascade/pos.vec
+C:\Users\Lino\Downloads\opencv\build\x64\vc15\bin\opencv_createsamples.exe -info cascade/catch/pos.txt -w 16 -h 16 -num 1000 -vec cascade/catch/pos.vec
 
-C:\Users\Lino\Downloads\opencv\build\x64\vc15\bin\opencv_traincascade.exe -data cascade/ -vec cascade/pos.vec -bg cascade/neg.txt -w 16 -h 16 -numPos 75 -numNeg 100 -numStages 16
+C:\Users\Lino\Downloads\opencv\build\x64\vc15\bin\opencv_traincascade.exe -data cascade/catch/ -vec cascade/catch/pos.vec -bg cascade/catch/neg.txt -w 16 -h 16 -numPos 75 -numNeg 100 -numStages 16
+§

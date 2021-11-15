@@ -7,7 +7,7 @@ state = "initializing"
 size = pag.size()
 screenshots = []
 templates = {}
-casc_bobber_down = cv2.CascadeClassifier('cascade/cascade.xml')
+casc_bobber_down = cv2.CascadeClassifier('cascade/catch/model/cascade.xml')
 #templ_data = [["bobber_dwn", 0.8, (0,0,255)]]
 templ_data = {
     "bobber": ["bobber", 0.6, (255,0,0)],
