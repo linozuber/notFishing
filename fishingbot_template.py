@@ -11,7 +11,7 @@ class fishingbot():
     def __init__(self):
         pass
 
-    def startFishing():
+    def goFishing():
         print("not implemented. define a function startFishing()")
 
     def cast():
