@@ -1,5 +1,5 @@
 import sys
-sys.path.append("../..")
+sys.path.append("../")
 
 import pyautogui as gui
 from time import sleep
@@ -20,6 +20,7 @@ class fisher():
         hh = size[1]*0.8
         xx = size[0]/2 - ww/2
         yy = size[1]/2 - hh/2
+        cent = (size[0]/2, size[1]/2)
 
         while True:
             if self.state == self.INITIALIZE:
@@ -47,4 +48,4 @@ class fisher():
             if self.state == self.WINDING or self.state == self.LOOSENING:
                 if foundTempl("casting", 0.7 ,(xx,yy,ww,hh)):
                     gui.mouseUp()
-                    self.state = self.INITIALIZE
+                    self.state = self.CASTING

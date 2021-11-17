@@ -1,4 +1,4 @@
-import fisher from fishingbot
+from fishingbot import fisher
 
 fisherman = fisher()
 fisherman.goFishing()
