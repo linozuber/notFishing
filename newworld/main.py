@@ -86,7 +86,7 @@ class fisher():
                     gui.mouseDown()
                     self.state = self.WINDING
             if self.state == self.WINDING or self.state == self.LOOSENING:
-                if foundTempl("success", 0.7 ,(xx,yy,ww,hh)):
+                if foundTempl("casting", 0.7 ,(xx,yy,ww,hh)):
                     gui.mouseUp()
                     self.state = self.INITIALIZE
 
